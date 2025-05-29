@@ -5,8 +5,8 @@ from datetime import datetime, timezone
 from dateutil import parser
 
 # 設置API密鑰
-api_key = 'B2DBA8tFAMa1ETrTy5xROc7YgpowKPCLMby7yj1H76D5Q0VXD812LAi95QyLVK8t'
-api_secret = 'rNwOHeRO2DtZjNg6U4m2jjhFkZcuysRYQhIS7NJBuJpGTtDuROsmfmlWRvlfgCCE'
+api_key = 'your_api_key'# type your api key
+api_secret = 'your_api_secret'# type your api secret
 
 client = Client(api_key, api_secret)
 
