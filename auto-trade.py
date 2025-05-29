@@ -6,8 +6,8 @@ from binance.client import Client
 from binance.websockets import BinanceSocketManager
 from binance.enums import *
 
-api_key = 'B2DBA8tFAMa1ETrTy5xROc7YgpowKPCLMby7yj1H76D5Q0VXD812LAi95QyLVK8t'
-api_secret = 'rNwOHeRO2DtZjNg6U4m2jjhFkZcuysRYQhIS7NJBuJpGTtDuROsmfmlWRvlfgCCE'
+api_key = 'your_api_key' # type your api key
+api_secret = 'your_api_secrey' # type your api secret
 client = Client(api_key, api_secret)
 bm = BinanceSocketManager(client)
 
